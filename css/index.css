@@ -28,9 +28,9 @@ body {
   text-align: center;
 }
 
-/*Pour faire monter le texte du centre*/
+/*---Pour faire monter le texte du centre*/
 .content {
-  transform: translateY(-6rem);
+  transform: translateY(-4rem);
 }
 
 h1 {
