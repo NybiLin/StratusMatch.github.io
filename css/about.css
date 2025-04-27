@@ -62,39 +62,3 @@
 .cta-line a:hover {
   text-decoration: underline;
 }
-
-/*Style du footer*/
-
-.site-footer {
-  background-color: #ffffffcc;
-  padding: 2rem;
-  text-align: center;
-  font-size: 1rem;
-  color: #555;
-  margin-top: 4rem;
-  border-top: 1px solid #ddd;
-}
-
-.site-footer nav {
-  margin-top: 1rem;
-}
-
-.site-footer nav a {
-  display: inline-block;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  color: #0077cc;
-  transition: color 0.3s ease;
-}
-
-.site-footer nav a:hover {
-  color: #005fa3;
-}
-
-.site-footer .small {
-  font-size: 0.8rem;
-  color: #888;
-  margin-top: 2rem;
-  margin-bottom: 0;
-}

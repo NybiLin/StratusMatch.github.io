@@ -1,13 +1,4 @@
-/* contact.css */
-
-body {
-  font-family: "Quicksand", sans-serif;
-  background-color: #fef8f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
+/*Style de la page de contact*/
 .contact-intro {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -39,6 +30,7 @@ body {
   margin-bottom: 1.25rem;
 }
 
+/*---Mise en style des labels au dessus des inputs*/
 .form-group label {
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -50,7 +42,9 @@ body {
   border: 1px solid #ccc;
   border-radius: 0.5rem;
   font-size: 1rem;
+  /*--- Permet de récuperer la police du parent, plutot que de la police par defaut*/
   font-family: inherit;
+  /*--- Permet de limiter la taille des inputs, nécessaire pour le textarea qui peut être abusé sinon*/
   min-width: 30%;
   min-height: 2rem;
   max-width: 100%;
@@ -60,7 +54,7 @@ body {
 button[type="submit"] {
   display: block;
   width: 100%;
-  padding: 0.9rem;
+  padding: 1rem;
   background-color: #0077cc;
   color: white;
   border: none;
@@ -75,37 +69,3 @@ button[type="submit"]:hover {
 }
 
 /*Style du footer*/
-
-.site-footer {
-  background-color: #ffffffcc;
-  padding: 2rem;
-  text-align: center;
-  font-size: 1rem;
-  color: #555;
-  margin-top: 4rem;
-  border-top: 1px solid #ddd;
-}
-
-.site-footer nav {
-  margin-top: 1rem;
-}
-
-.site-footer nav a {
-  display: inline-block;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  color: #0077cc;
-  transition: color 0.3s ease;
-}
-
-.site-footer nav a:hover {
-  color: #005fa3;
-}
-
-.site-footer .small {
-  font-size: 0.8rem;
-  color: #888;
-  margin-top: 2rem;
-  margin-bottom: 0;
-}

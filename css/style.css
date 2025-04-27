@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Style global pour les pages secondaire */
@@ -80,6 +80,42 @@ nav a:hover {
   transform: translateY(-3px);
 }
 
+/* Style du footer */
+
+.site-footer {
+  background-color: #ffffffcc;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 4rem;
+  border-top: 1px solid #ddd;
+}
+
+.site-footer nav {
+  margin-top: 1rem;
+}
+
+.site-footer nav a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+.site-footer nav a:hover {
+  color: #005fa3;
+}
+
+.site-footer .small {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
 /*Animation, part de la position 0, jusque plus loin que l'écran pour faire disparaitre les nuages*/
 @keyframes floatCloud {
   from {
@@ -102,9 +138,9 @@ nav a:hover {
   }
 }
 
-/* Style pour la version mobile (Majoritairement pour la navbar, qui fonctionnait mal sur mobile) */
+/* Style pour la version mobile (Majoritairement pour la navbar, qui cassait sur mobile) */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .site-header {
     flex-direction: column;
     align-items: center;
