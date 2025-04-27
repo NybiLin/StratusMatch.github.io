@@ -1,0 +1,111 @@
+/* contact.css */
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fef8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-intro {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: "Quicksand", sans-serif;
+}
+
+.contact-form h2 {
+  font-family: "pacifico", cursive;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  min-width: 30%;
+  min-height: 2rem;
+  max-width: 100%;
+  max-height: 10rem;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/*Style du footer*/
+
+.site-footer {
+  background-color: #ffffffcc;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 4rem;
+  border-top: 1px solid #ddd;
+}
+
+.site-footer nav {
+  margin-top: 1rem;
+}
+
+.site-footer nav a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+.site-footer nav a:hover {
+  color: #005fa3;
+}
+
+.site-footer .small {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}

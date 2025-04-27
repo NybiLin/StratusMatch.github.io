@@ -1,0 +1,98 @@
+/* Style global pour la page d'accueil */
+
+body {
+  background-image: url("../img/altocumulus.jpg");
+  /* Pour faire tenir le background sur tout l'écran */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  /* Cache la barre de scroll quand les nuages partent hors champ */
+  overflow: hidden;
+}
+
+/* Style pour le contenu de la page d'accueil */
+
+.overlay {
+  /* Pour faire tenir la page sur tout l'écran */
+  height: 100%;
+  width: 100%;
+  /* Pour réduire la luminosité du background */
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  /*Pour mettre le texte au centre*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Pour faire monter le texte du centre*/
+.content {
+  transform: translateY(-6rem);
+}
+
+h1 {
+  margin: 0;
+  font-family: "pacifico", cursive;
+  font-size: 3rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 4rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cloud {
+  position: absolute;
+  background-image: url("../img/cloud1.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 100px;
+  opacity: 0.7;
+  animation: floatCloud 40s linear infinite;
+}
+
+#cloud1 {
+  top: 10%;
+  left: -250px;
+  animation-delay: 0s;
+}
+
+/* Fait partir le 2eme nuage un peu plus tard que l'autre, et le fait bouger a une vitesse differente */
+#cloud2 {
+  top: 60%;
+  left: -250px;
+  animation-delay: 30s;
+  animation-duration: 80s;
+}
+
+/* Style des boutons */
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Controle de l'animation au chargement */
+
+.overlay h1,
+.overlay p,
+.button-group {
+  opacity: 0;
+  animation: fadeUp 2s ease-out forwards;
+}
+
+.overlay p {
+  animation-delay: 0.3s;
+}
+
+.button-group {
+  animation-delay: 0.6s;
+}
