@@ -71,8 +71,8 @@ p {
 #cloud2 {
   top: 60%;
   left: -250px;
-  animation-delay: 30s;
-  animation-duration: 80s;
+  animation-delay: 10s;
+  animation-duration: 55s;
 }
 
 /* Style des boutons */
