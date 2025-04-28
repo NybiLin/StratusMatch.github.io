@@ -48,6 +48,8 @@ p {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+/* Style des div contenant les nuages qui doivent être animés */
+
 .cloud {
   position: absolute;
   background-image: url("../img/cloud1.webp");
@@ -65,7 +67,7 @@ p {
   animation-delay: 0s;
 }
 
-/* Fait partir le 2eme nuage un peu plus tard que l'autre, et le fait bouger a une vitesse differente */
+/*---Fait partir le 2eme nuage un peu plus tard que l'autre, et le fait bouger a une vitesse differente */
 #cloud2 {
   top: 60%;
   left: -250px;
