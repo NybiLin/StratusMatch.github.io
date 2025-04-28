@@ -12,6 +12,10 @@
   margin-bottom: 1rem;
 }
 
+#founders-title {
+  font-family: "quicksand", sans-serif;
+}
+
 .content p {
   font-size: 1.2rem;
   line-height: 1.8;
